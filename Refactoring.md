@@ -27,7 +27,7 @@ You will be graded on the level of detail in each ticket, the clarity of the exe
      - Agent Department ID
      - Agent Central ID
 2. Create CRUD APIs which translates the department ID to central ID.
-   - Estimate: 4h
+   - Estimate: 6h
    - API will return central DB Agent ID when a valid agent ID is provided. It should handle the errors appropriately.
    - Description: Create APIs Which will create, read, update and delete the Central DB Agent ID if client provides a valid department ID/Agent ID. APIs should be protected and should be accessible to appropriate user only. In case of invalid department ID appropriate errors should be returned. Unauthorized persons shouldn't have access to this API. All edge cases must be handled.
 3. Create a function which will get the agent data from central DB after getting the central DB agent ID when department requests
